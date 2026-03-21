@@ -1,0 +1,6 @@
+# Artifact Hub repository metadata
+# https://artifacthub.io/docs/topics/repositories/#repository-metadata-file
+repositoryID: ""  # TODO: fill in after registering on ArtifactHub
+owners:
+  - name: YOUR_NAME     # TODO: fill in
+    email: your@email.com  # TODO: fill in

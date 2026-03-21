@@ -1,0 +1,18 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g. 1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    uses: privilegedescalation/.github/.github/workflows/plugin-release.yaml@main
+    with:
+      version: ${{ inputs.version }}
