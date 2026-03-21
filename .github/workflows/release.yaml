@@ -10,9 +10,11 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   release:
     uses: privilegedescalation/.github/.github/workflows/plugin-release.yaml@main
     with:
       version: ${{ inputs.version }}
+    secrets: inherit
