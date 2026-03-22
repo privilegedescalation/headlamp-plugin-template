@@ -13,7 +13,8 @@
     {
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "github-actions minor and patch"
+      "groupName": "github-actions minor and patch",
+      "pinDigests": true
     }
   ]
 }
