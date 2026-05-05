@@ -42,6 +42,8 @@
   },
   "pnpm": {
     "overrides": {
+      // elliptic >=6.6.1: no patched version exists yet (GHSA-848j-6mx2-7j84).
+      // This override prevents regression and will auto-resolve once upstream publishes a fix.
       "elliptic": ">=6.6.1"
     }
   }
