@@ -39,5 +39,10 @@
     "vite": "^6.4.1",
     "vite-plugin-svgr": "^4.5.0",
     "vitest": "^3.0.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "elliptic": ">=6.6.1"
+    }
   }
 }
