@@ -40,6 +40,8 @@
     "vite-plugin-svgr": "^4.5.0",
     "vitest": "^3.0.5"
   },
+  // Override for GHSA-848j-6mx2-7j84 (transitive via vite-plugin-node-polyfills → crypto-browserify → browserify-sign → elliptic).
+  // No patched version exists yet; this is a forward-looking safeguard that auto-resolves when upstream publishes 6.6.2+.
   "pnpm": {
     "overrides": {
       "elliptic": ">=6.6.1"
