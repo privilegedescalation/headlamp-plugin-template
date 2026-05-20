@@ -12,6 +12,7 @@
   "homepage": "https://git.farh.net/privilegedescalation/headlamp-plugin-template",
   "author": "Privileged Escalation",
   "license": "Apache-2.0",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "start": "headlamp-plugin start",
     "build": "headlamp-plugin build",
