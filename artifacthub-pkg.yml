@@ -1,24 +1,22 @@
 # Artifact Hub package metadata
 # https://artifacthub.io/docs/topics/repositories/headlamp-plugins/
-# Replace ALL placeholder values before publishing.
 
 version: "0.1.0"
-name: my-headlamp-plugin                       # TODO: change to your plugin name (lowercase, hyphens)
-displayName: My Headlamp Plugin                # TODO: human-readable display name
-createdAt: "2026-01-01T00:00:00Z"              # TODO: set to your initial release date
-description: A Headlamp plugin for Kubernetes  # TODO: describe your plugin
+name: my-headlamp-plugin
+displayName: My Headlamp Plugin
+createdAt: "2026-05-20T00:00:00Z"
+description: A Headlamp plugin for Kubernetes
 license: Apache-2.0
-homeURL: https://github.com/YOUR_ORG/YOUR_REPO  # TODO: update
-appVersion: "0.1.0"                            # TODO: version of the app this plugin targets
+homeURL: https://git.farh.net/privilegedescalation/headlamp-plugin-template
+appVersion: "0.1.0"
 keywords:
   - headlamp
   - kubernetes
-  # TODO: add your plugin-specific keywords
 annotations:
-  headlamp/plugin/archive-url: "https://github.com/YOUR_ORG/YOUR_REPO/releases/download/v0.1.0/my-headlamp-plugin-0.1.0.tar.gz"  # TODO: update per release
-  headlamp/plugin/archive-checksum: "sha256:REPLACE_WITH_ACTUAL_CHECKSUM"  # TODO: compute from release artifact
+  headlamp/plugin/archive-url: "https://git.farh.net/privilegedescalation/headlamp-plugin-template/releases/download/v0.1.0/my-headlamp-plugin-0.1.0.tar.gz"
+  headlamp/plugin/archive-checksum: "sha256:e2cfecedbef47931c54612a0f77f3b95c85a16923bd578e6d3a50bf15f55403b"
   headlamp/plugin/version-compat: ">=0.13.0"
   headlamp/plugin/distro-compat: "desktop,in-cluster,web,docker-desktop"
 links:
   - name: Source Code
-    url: https://github.com/YOUR_ORG/YOUR_REPO  # TODO: update
+    url: https://git.farh.net/privilegedescalation/headlamp-plugin-template
